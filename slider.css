@@ -1,0 +1,37 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+    border: solid 1px #ccc;
+}
+
+.slider_images {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.slider_images li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.slider_controls {
+    list-style-type: none; 
+    position: absolute; 
+    right: 10px;
+    bottom: 0px;
+}
+
+.slider_controls li {
+    float: left;
+    border: solid 1px #ccc;
+    background: solid 1px #333;
+    margin: 0px 4px 0px 0px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.slider_controls li.selected {
+    background: #ccc;
+}

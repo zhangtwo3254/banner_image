@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>模板.html</title>
+		
+        <link rel="stylesheet" type="text/css" href="slider.css" />
+		<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="slider.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#sliderImages').slider({
+                    width: 637,
+                    height: 272,
+                    auto: true
+                }); 
+            });
+        </script>
+	<body>
+        <div class="slider">
+            <ul class="slider_images" id="sliderImages">
+                <li><img src="imgs/1.jpg" /></li>
+                <li><img src="imgs/2.jpg" /></li>
+                <li><img src="imgs/3.jpg" /></li>
+                <li><img src="imgs/4.jpg" /></li>
+                <li><img src="imgs/5.jpg" /></li>
+                <li><img src="imgs/6.jpg" /></li>
+                <li><img src="imgs/7.jpg" /></li>
+                <li><img src="imgs/8.jpg" /></li>
+            </ul>
+            <ul class="slider_controls" id="sliderControl"></ul>
+        </div>
+	</body>
+</html>
+
